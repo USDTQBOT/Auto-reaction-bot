@@ -34,12 +34,12 @@ async function reactMultipleTimes(chatId, messageId) {
         reply_to_message_id: messageId,
       });
       console.log(
-        `✅ Reacted with ${emoji} (${i + 1}/${reactionCount}) in chat ${chatId}`
+        `Reacted with ${emoji} (${i + 1}/${reactionCount}) in chat ${chatId}`
       );
       // Wait 1–2 seconds between emojis
       await delay(getRandomInt(1000, 2000));
     } catch (err) {
-      console.error("❌ Error sending emoji:", err);
+      console.error("Error sending emoji:", err);
     }
   }
 }
