@@ -1,5 +1,5 @@
 {
-    "name": "autoreabot1",
+    "name": "auto-reaction-bot",
     "description": "A Telegram Bot that automatically reacts to posts in Telegram Channels, groups, and private messages, developed as a serverless application.",
     "repository": "https://github.com/usdtqbot/auto-reaction-bot",
     "env": {
